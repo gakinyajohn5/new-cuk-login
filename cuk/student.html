@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Login — E-MASOMO</title>
+<link rel="shortcut icon" href="https://emasomo.cuk.ac.ke/theme/image.php/impression_boost/theme/1771514939/favicon"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;subset=latin-ext" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="login-card">
+    <div class="logo-wrap">
+      <div class="logo-badge" aria-hidden="true">
+        <img src="images/download.png" alt="The Cooperative University of Kenya logo" width="56" height="56">
+      </div>
+      <div class="logo-caption">Student Login</div>
+    </div>
+
+    <div class="login-panels" style="justify-content:center;">
+      <section class="panel panel-form" aria-label="Student Google login">
+        <p style="text-align:center; color:#6b7280; margin-bottom:20px;">
+          Sign in with your <strong>@student.cuk.ac.ke</strong> account
+        </p>
+
+        <form autocomplete="off" onsubmit="return false;">
+          <label class="field">
+            <span class="field-icon" aria-hidden="true">@</span>
+            <input type="email" id="studentEmail" name="student_email_field" placeholder="Email" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+          </label>
+
+          <label class="field">
+            <span class="field-icon" aria-hidden="true">🔒</span>
+            <input type="password" id="studentPassword" name="student_password_field" placeholder="Password" autocomplete="new-password">
+          </label>
+
+          <button type="button" class="btn-login" onclick="checkStudentLogin()">Continue with Google</button>
+        </form>
+
+        <p id="studentMessage" style="margin-top:14px; font-size:14px;"></p>
+
+        <a href="index.html" class="forgot-link" style="display:block; margin-top:20px; text-align:center;">← Back to login</a>
+      </section>
+    </div>
+  </main>
+
+  <script src="auth.js"></script>
+</body>
+</html>
