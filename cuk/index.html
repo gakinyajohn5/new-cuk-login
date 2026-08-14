@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>E-MASOMO: Log in to the site</title>
+<link rel="shortcut icon" href="https://emasomo.cuk.ac.ke/theme/image.php/impression_boost/theme/1771514939/favicon"/>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;subset=latin-ext" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700&amp;subset=latin-ext" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main class="login-card">
+
+    <div class="logo-wrap">
+      <div class="logo-badge" aria-hidden="true">
+        <img src="images/download.png" alt="The Cooperative University of Kenya logo" width="56" height="56">
+      </div>
+      <div class="logo-caption">e-Learning Portal</div>
+    </div>
+
+    <div class="login-panels">
+
+      <section class="panel panel-form" aria-label="Login form">
+        <form action="#" method="post" autocomplete="off">
+
+          <label class="field">
+            <span class="field-icon" aria-hidden="true">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+                <circle cx="12" cy="8" r="4" stroke="currentColor" stroke-width="2"/>
+                <path d="M4 20c0-4 3.6-7 8-7s8 3 8 7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </span>
+            <input type="text" name="username" placeholder="Username" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false">
+          </label>
+
+          <label class="field">
+            <span class="field-icon" aria-hidden="true">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+                <rect x="5" y="11" width="14" height="9" rx="2" stroke="currentColor" stroke-width="2"/>
+                <path d="M8 11V7a4 4 0 0 1 8 0v4" stroke="currentColor" stroke-width="2"/>
+              </svg>
+            </span>
+            <input type="password" name="password" placeholder="Password" autocomplete="new-password">
+          </label>
+
+          <a href="#" class="forgot-link">Forgotten your username or password?</a>
+
+          <button type="submit" class="btn-login">Log in</button>
+
+          <label class="remember">
+            <input type="checkbox" name="remember">
+            <span>Remember username</span>
+          </label>
+
+        </form>
+      </section>
+
+      <section class="panel panel-oauth" aria-label="Login with a provider">
+        <h2 class="oauth-title">Log in using your account on:</h2>
+
+        <a href="staff.html" class="btn-oauth">
+          <span class="g-icon" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 48 48">
+              <path fill="#FFC107" d="M43.6 20.5H42V20H24v8h11.3C33.7 32.6 29.3 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.9 1.2 8 3.1l5.7-5.7C34.6 6.1 29.6 4 24 4 12.9 4 4 12.9 4 24s8.9 20 20 20 20-8.9 20-20c0-1.2-.1-2.4-.4-3.5z"/>
+              <path fill="#FF3D00" d="M6.3 14.7l6.6 4.8C14.6 15.8 18.9 13 24 13c3.1 0 5.9 1.2 8 3.1l5.7-5.7C34.6 6.1 29.6 4 24 4c-7.7 0-14.4 4.3-17.7 10.7z"/>
+              <path fill="#4CAF50" d="M24 44c5.5 0 10.4-1.9 14.2-5.1l-6.6-5.5C29.6 35.4 26.9 36 24 36c-5.3 0-9.7-3.4-11.3-8.1l-6.6 5.1C9.5 39.6 16.2 44 24 44z"/>
+              <path fill="#1976D2" d="M43.6 20.5H42V20H24v8h11.3c-.8 2.3-2.3 4.3-4.3 5.7l6.6 5.5C41.5 36.4 44 30.7 44 24c0-1.2-.1-2.4-.4-3.5z"/>
+            </svg>
+          </span>
+          <span class="divider" aria-hidden="true"></span>
+          <span class="oauth-label">Staff Login</span>
+        </a>
+
+        <a href="student.html" class="btn-oauth">
+          <span class="g-icon" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 48 48">
+              <path fill="#FFC107" d="M43.6 20.5H42V20H24v8h11.3C33.7 32.6 29.3 36 24 36c-6.6 0-12-5.4-12-12s5.4-12 12-12c3.1 0 5.9 1.2 8 3.1l5.7-5.7C34.6 6.1 29.6 4 24 4 12.9 4 4 12.9 4 24s8.9 20 20 20 20-8.9 20-20c0-1.2-.1-2.4-.4-3.5z"/>
+              <path fill="#FF3D00" d="M6.3 14.7l6.6 4.8C14.6 15.8 18.9 13 24 13c3.1 0 5.9 1.2 8 3.1l5.7-5.7C34.6 6.1 29.6 4 24 4c-7.7 0-14.4 4.3-17.7 10.7z"/>
+              <path fill="#4CAF50" d="M24 44c5.5 0 10.4-1.9 14.2-5.1l-6.6-5.5C29.6 35.4 26.9 36 24 36c-5.3 0-9.7-3.4-11.3-8.1l-6.6 5.1C9.5 39.6 16.2 44 24 44z"/>
+              <path fill="#1976D2" d="M43.6 20.5H42V20H24v8h11.3c-.8 2.3-2.3 4.3-4.3 5.7l6.6 5.5C41.5 36.4 44 30.7 44 24c0-1.2-.1-2.4-.4-3.5z"/>
+            </svg>
+          </span>
+          <span class="divider" aria-hidden="true"></span>
+          <span class="oauth-label">Student Login</span>
+        </a>
+
+        <p class="cookie-note">
+          Cookies must be enabled in your browser
+          <span class="help-dot" title="Cookies are required to keep you logged in.">?</span>
+        </p>
+      </section>
+
+    </div>
+  </main>
+
+</body>
+</html>
